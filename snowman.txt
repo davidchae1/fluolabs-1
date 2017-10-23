@@ -1,0 +1,38 @@
+
+function setup() {
+    createCanvas(1100, 850) 
+    background(25, 220, 252)
+}
+function draw() {
+    fill(255) 
+    noStroke()
+    rect(0, 700, 1100, 150)
+    
+    ellipse(550, 600, 225, 225)
+    ellipse(550, 425, 175, 175)
+    ellipse(550, 300, 100, 100)
+
+    // eyes
+    fill(0)
+    ellipse(531, 284, 10, 10)
+    fill(0)
+    ellipse(549, 284, 10, 10)
+    // buttons
+    fill(0)
+    ellipse(550, 370, 10, 10)
+    fill(0)
+    ellipse(550, 400, 10, 10)
+    fill(0)
+    ellipse(550, 430, 10, 10)
+    // carrot nose
+    fill(255, 160, 122)
+    triangle(540, 300, 540, 310, 515, 305)
+    // right arm
+    stroke(139, 69, 19)
+    line(625, 400, 700, 485)
+    strokeWeight(5)
+    stroke(139, 69, 19)
+    line(685, 465, 700, 465)
+    // left arm
+    stroke(139, 69, 19)
+    line(475, 400, 370, 300)
